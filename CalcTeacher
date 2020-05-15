@@ -1,0 +1,154 @@
+import java.util.Scanner;
+import java.lang.Math;
+import java.util.*;
+
+public class calcProject
+{
+   public static void main(String[] args)
+   {
+      Scanner input = new Scanner(System.in);
+      System.out.println("\n Welcome to the Calculus Program Teacher! Type 'Continue' to begin work!");
+      String user = input.nextLine();
+      if(user.equals("Continue"))
+      {
+         System.out.println("How many problems do you have?");
+         int numProb = input.nextInt();
+         for(int i = 1; i <= numProb; i++)
+         {
+            System.out.println("\n What Chapter of Calculus are you focusing on today?");
+            int chapterChoice = input.nextInt();
+            if(chapterChoice == 1)
+            {
+               System.out.println("\n What subsection are you looking for? 1) PLACE_HOLDER 2) PLACE_HOLDER");
+               int unit1Choice = input.nextInt();
+               if(unit1Choice == 1)
+               {
+                  System.out.println("\n RANDOM EXPLANATION PLACEHOLDER");
+                  System.out.println("\n Please enter VARIABLE PLACEHOLDER");
+                  //v is a placeholder for now
+                  int v = input.nextInt();
+                  int PRODUCTPLACEHOLDER = v * 3;
+                  System.out.println("\n"+ PRODUCTPLACEHOLDER);
+               }
+               if(unit1Choice == 2)
+               {
+                  System.out.println("\n RANDOM EXPLANATION PLACEHOLDER");
+                  System.out.println("\n Please enter VARIABLE PLACEHOLDER");
+                  //v2 is a placeholder for now
+                  int v2 = input.nextInt();
+                  int PPH = v2 *3;
+                  System.out.println("\n" + PPH);
+               }
+               if(unit1Choice == 3)
+               {
+                  System.out.println("\n RANDOM EXPLANATION PLACEHOLDER");
+                  System.out.println("\n Please enter VARIABLE PLACEHOLDER");
+                  //v3 is a placeholder for now
+                  int v3 = input.nextInt();
+                  int PPH2 = v3 *3;
+                  System.out.println("\n" + PPH2);
+               }
+               if(unit1Choice == 4)
+               {
+                  System.out.println("\n RANDOM EXPLANATION PLACEHOLDER");
+                  System.out.println("\n Please enter VARIABLE PLACEHOLDER");
+                  //v4 is a placeholder for now
+                  int v4 = input.nextInt();
+                  int PPH3 = v4 *3;
+                  System.out.println("\n" + PPH3);
+               }
+               if(unit1Choice == 5)
+               {
+                  System.out.println("\n RANDOM EXPLANATION PLACEHOLDER");
+                  System.out.println("\n Please enter VARIABLE PLACEHOLDER");
+                  //v5 is a placeholder for now
+                  int v5 = input.nextInt();
+                  int PPH4 = v5 *3;
+                  System.out.println("\n" + PPH4);
+               }
+               if(unit1Choice == 6)
+               {
+                  System.out.println("\n RANDOM EXPLANATION PLACEHOLDER");
+                  System.out.println("\n Please enter VARIABLE PLACEHOLDER");
+                  //v6 is a placeholder for now
+                  int v6 = input.nextInt();
+                  int PPH5 = v6 *3;
+                  System.out.println("\n" + PPH5);
+               }
+               if(unit1Choice == 7)
+               {
+                  System.out.println("\n RANDOM EXPLANATION PLACEHOLDER");
+                  System.out.println("\n Please enter VARIABLE PLACEHOLDER");
+                  //v3 is a placeholder for now
+                  int v7 = input.nextInt();
+                  int PPH6 = v7 *3;
+                  System.out.println("\n" + PPH6);
+               }
+               if(unit1Choice == 8)
+               {
+                  System.out.println("\n RANDOM EXPLANATION PLACEHOLDER");
+                  System.out.println("\n Please enter VARIABLE PLACEHOLDER");
+                  //v8 is a placeholder for now
+                  int v8 = input.nextInt();
+                  int PPH7 = v8 *3;
+                  System.out.println("\n" + PPH7);
+               }
+               else
+               {
+                  System.out.println(" ");
+               }
+            }
+            if(chapterChoice == 2)
+            {
+               System.out.println("\n TEST 2");
+            }
+            if(chapterChoice == 3)
+            {
+               System.out.println("\n TEST 3");
+            }
+            if(chapterChoice == 4)
+            {
+               System.out.println("\n TEST 4");
+            }
+            if(chapterChoice == 5)
+            {
+               System.out.println("\n TEST 5");
+            }
+            if(chapterChoice == 6)
+            {
+               System.out.println("\n TEST 6");
+            }
+            if(chapterChoice == 7)
+            {
+               System.out.println("\n TEST 7");
+            }
+            if(chapterChoice == 8)
+            {
+               System.out.println("\n TEST 8");
+            }
+            if(chapterChoice == 9)
+            {
+               System.out.println("\n TEST 9");
+            }
+            if(chapterChoice == 10)
+            {
+               System.out.println("\n TEST 10");
+            }
+            if(chapterChoice > 10 || chapterChoice <=0)
+            {
+               System.out.println("\n That is not a valid choice.");
+            }
+            else
+            {
+               System.out.print(" ");
+            }
+
+         }
+      }
+      else
+      {
+         System.out.println("Come back again!");
+         System.exit(1);
+      }
+   }
+}
